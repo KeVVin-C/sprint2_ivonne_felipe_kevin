@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<!--
+Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
+Click nbfs://nbhost/SystemFileSystem/Templates/ClientSide/html.html to edit this template
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="EstiloRegistro.css" rel="stylesheet" type="text/css"/>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;600;800&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/42ec7ee6fe.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <form action=" " method="post" class="form_clientes">
+            
+            <h2 class="titulo_form_clientes">Clientes</h2>
+            <div class="contenedor-input">
+                <table class="tabla-clientes" border="1">
+                <tr>
+                    <td class="celda-IdentificacionCliente"> Identificacion Cliente</td>
+                    <td><input type="text" name="Identificacion" class="input-50" placeHolder="No identificacion"></td>
+                </tr>
+                <tr>
+                    <td class="celda-NombresApellidos"> Nombres y apellidos</td>
+                    <td><input type="text" name="NombresApellidos" class="input-50" placeHolder="Nombres Apellidos"></td>
+                </tr>
+                <tr>
+                    <td class="celda-Edad"> Edad</td>
+                    <td><input type="text" name="Edad" class="input-50" placeHolder="Edad"></td>
+                </tr> 
+                <tr>
+                    <td class="celda-Email"> Email</td>
+                    <td><input type="text" name="Email" class="input-50" placeHolder="Email"></td>
+                </tr>
+                <tr>
+                    <td class="celda-Telefono"> Telefono</td>
+                    <td><input type="text" name="Telefono" class="input-50" placeHolder="Telefono"></td>
+                </tr>
+                <tr>
+                    <td class="celda-Genero">Genero</td>
+                    <td><select name="Genero" id="Genero" class="select-45">
+                        <option value="Masculino">Masculino</option>
+                        <option value="Femenino">Femenino</option>
+                        <option value="Otro">Otro</option>
+                </select>
+                </tr>
+                </table>
+                
+                <table>
+                    <tr>
+                        <td><input type="submit" value="Registrarse"class="btn-registrarse"></td>
+                    </tr>
+                </table>
+            </div>
+        </form>   
+    </body>
+</html>
